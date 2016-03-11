@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Greg Wong</title>
+    <meta name="description" content="I'm a designer in Los Angeles.">
+    <meta name = "viewport" content = "user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+    <link rel="shortcut icon" type="image/x-icon" href="imgs/favicon.ico">
+    <!-- CSS -->
+    <style type="text/css">
+    body {
+      font-size: 10px;
+      background: #fafafa;
+      color: rgba(0,0,0,0.49);
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      width: 100%;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+    }
+    a {
+      color: rgba(0,0,0,0.75);
+      text-decoration: none;
+      -webkit-transition: color 0.25s linear;
+    }
+    a:hover {
+      color: rgba(0,0,0,0.9);
+      text-decoration: underline;
+    }
+    #watermark {
+      margin-bottom: 2em;
+      margin-left: -2px;
+      display: block;
+      opacity: 0.75;
+    }
+    #page {
+      max-width: 24em;
+      margin: 2em;
+      font-size: 1.6em;
+      line-height: 1.4;
+      font-family: 'Chronicle SSm A', 'Chronicle SSm B', Georgia, serif;
+      -webkit-transition: all 0.25s ease-in;
+    }
+    #page h1 {
+      font-size: 2.2em;
+      line-height: 1;
+      margin: 0 0 0.75em 0;
+      font-weight: 300;
+      font-family: 'Whitney A', 'Whitney B', Helvetica,sans-serif;
+    }
+    #page p {
+      margin: 0.5em 0;
+      font-weight: 300;
+    }
+    #headshot {
+      display: none;
+      overflow: hidden;
+      width: 18em;
+      height: 28.125em;
+      position: absolute;
+      top: 5.75em;
+      right: 0;
+      text-align: right;
+      min-height: 500px;
+    }
+    
+    #headshot img {
+      width: auto;
+      height: 100%;
+    }
+    @media screen and (min-width: 920px) {
+      #headshot {
+        display: block;
+      }
+    }
+    @media screen and (min-width: 767px) {
+      #page {
+        margin-left: 4em;
+        margin-right: 4em;
+      }
+      #headshot {
+        right: 4em;
+      }
+    }
+    @media screen and (min-height: 600px) {
+      #page {
+        margin-top: 4em;
+        margin-bottom: 4em
+      }
+      #headshot {
+        top: 8em;
+      }
+    }
+    @media screen and (min-width: 1080px) {
+      #page {
+        margin-left: 8em;
+        margin-right: 8em;
+      }
+      #headshot {
+        right: 8em;
+      }
+    }
+    @media screen and (min-height: 767px) {
+      #page {
+        margin-top: 8em;
+        margin-bottom: 8em;
+      }
+      #headshot {
+        top: 12em;
+      }
+    }
+    @media screen and (min-width: 1200px) and (min-height: 600px) {
+      #headshot {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: auto;
+        text-align: right;
+        width: 42%;
+        height: auto;
+        min-height: 600px;
+      }
+      #headshot img {
+        height: 100%;
+        width: auto;
+      }
+      #headshot .credit {
+        margin-right: 1.5em;
+      }
+    }
+    @media screen and (min-width: 468px) {
+      #page {
+        font-size: 1.8em;
+      }
+    }
+    @media screen and (min-width: 1685px) {
+      #page {
+        padding-left: 5em;
+      }
+      #headshot {
+        margin-top: -3.5em;
+      }
+    }
+    @media screen and (min-width: 1685px) and (min-height: 767px) {
+      #page {
+        font-size: 2.1em;
+      }
+    }
+    @media screen and (-webkit-min-device-pixel-ratio: 2) {
+      #watermark img {
+        width: 78%;
+        height: auto;
+      }
+    }
+    </style>
+  </head>
+  <body>
+    <div id="page">
+      <div id="watermark">
+        <img src="imgs/logo.png" width="68%" alt="GregWong">
+      </div>
+      <div id="headshot">
+        <img src="imgs/rightpic.jpg">
+      </div>
+      <section id="main">
+        
+        <p>I'm a designer in Los Angeles.</p>
+
+        <p>I'm currently accepting freelance projects. My work includes names such as Couchbase, DryWired and Insomniac.</p>
+
+        <p>My <a href="http://gregtwong.com/portfolio/">portfolio</a> is ever expanding and my love for learning has me taught me to challenge myself on the daily.</p>
+
+        <p>In my spare time, I take advantage of the sunny California weather through golf and cycling.</p>
+        
+        <p>If you'd like to get in touch, feel free to <a href="mailto:hello@gregtwong.com">send me an email </a>or connect with me on <a href="http://www.linkedin.com/pub/gregory-wong/32/209/585">Linkedin</a>.</p>
+
+      </div>
+    </div>
+  </body>
+</html>
